@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+section {
+    padding: 50px;
+}
+
+div {
+    width: 32.75%;
+    margin: auto;
+    padding: 100px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+
+}
+
+
+table {
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid #808080;
+} 
+
+td  {
+    text-align: center;
+    padding: 15pxpx;
+    background-color: #808080;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sign {
+    background-color:darkgray;
+    border: 1px solid darkgray;
+    font-size: 30px;
+}
