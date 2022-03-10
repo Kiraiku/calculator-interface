@@ -1,18 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 section {
     padding: 50px;
 }
-
-div {
-    width: 32.75%;
-    margin: auto;
-    padding: 100px;
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
-
-}
-
 
 table {
     width: 50%;
@@ -26,18 +16,34 @@ table, td {
 } 
 
 td  {
-    text-align: center;
-    padding: 15pxpx;
+    /* text-align: center; */
     background-color: #808080;
-    color: #fff;
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    cursor: pointer;
+    
 }
 
-.sign {
-    background-color:darkgray;
-    border: 1px solid darkgray;
-    font-size: 30px;
+.display-box {
+    width: 95%;
+    height: 65%;
+    color: #111;
+    background-color: #dcdbe1;
+    font-family: 'Orbitron', sans-serif;
 }
+
+.button {
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    width: 100%;
+    height: 70%;
+    border: solid #808080 0.4px;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.button:active {
+    background-color: #ff0000;
+    /* color: #fff; */
+}
+
+
+
+
